@@ -100,7 +100,7 @@ app.post("/", async (req,res)=>{
 
     res.json({
         formData: req.body,
-        message: "Sie haben mich kontaktiert, vielen Dank!",
+        successMessage: "Sie haben mich kontaktiert, vielen Dank!",
     })
     } catch (err) {
         res.status(404).json({
